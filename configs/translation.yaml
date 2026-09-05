@@ -319,6 +319,57 @@ de:
   Instrumental: Instrumental
   Vocals: Gesang
   BGM Separation: Hintergrundmusik herausfiltern
+nl:
+  Language: Taal
+  Upload File here: Upload Bestand Hier
+  Model: Model
+  Automatic Detection: Automatische Detectie
+  File Format: Bestandstype
+  Translate to English?: Naar Engels vertalen? (Whispers End-To-End Speech-To-Text
+    vertaalfunctie)
+  Add a timestamp to the end of the filename: Tijdstempel aan het einde van de bestandsnaam toevoegen
+  Offload sub model when finished: Offload model na voltooiing
+  Advanced Parameters: Geavanceerde Parameters
+  Enabling this will remove background music: Hiermee wordt achtergrondmuziek door het submodel verwijderd, voorafgaand aan de transcriptie
+  Enable Background Music Remover Filter: Achtergrondmuziek-verwijderingsfilter inschakelen
+  Device: Apparaat
+  Save separated files to output: Resultaat als aparte bestanden opslaan
+  Background Music Remover Filter: Achtergrondmuziek-verwijderingsfilter
+  Enable this to transcribe only detected voice: Hiermee worden alleen de door het submodel gedetecteerde stemsegmenten getranscribeerd
+  Enable Silero VAD Filter: Silero VAD-filter inschakelen
+  Voice Detection Filter: Stemdetectie-filter
+  Enable Diarization: Diarisatie inschakelen
+  This is only needed the first time you download the model: Dit is alleen nodig de eerste keer dat
+    je het model downloadt. Als je al modellen hebt, is dit niet nodig. Om het model te downloaden
+    kun je naar "https://huggingface.co/pyannote/speaker-diarization-3.1" en "https://huggingface.co/pyannote/segmentation-3.0"
+    gaan en daar de voorwaarden accepteren.
+  HuggingFace Token: HuggingFace-token
+  Diarization: Diarisatie
+  GENERATE SUBTITLE FILE: ONDERTITELINGSBESTAND GENEREREN
+  Output: Resultaat
+  Downloadable output file: Downloadbaar resultaat
+  File: Bestand
+  Youtube Link: Youtube-link
+  Youtube Thumbnail: Youtube-thumbnail
+  Youtube Title: Youtube-titel
+  Youtube Description: Youtube-beschrijving
+  Youtube: Youtube
+  Record with Mic: Met microfoon opnemen
+  Mic: Microfoon
+  Upload Subtitle Files to translate here: Upload hier te vertalen ondertitelingsbestanden
+  Your Auth Key (API KEY): Jouw autorisatiesleutel (API KEY)
+  Source Language: Brontaal
+  Target Language: Doeltaal
+  Pro User?: Pro gebruiker?
+  TRANSLATE SUBTITLE FILE: ONDERTITELINGSBESTAND VERTALEN
+  DeepL API: DeepL API
+  NLLB: NLLB
+  T2T Translation: T2T Vertaling
+  Upload Audio Files to separate background music: Audiobestanden uploaden, om achtergrondmuziek te scheiden
+  SEPARATE BACKGROUND MUSIC: ACHTERGRONDMUZIEK SCHEIDEN
+  Instrumental: Instrumenteel
+  Vocals: Stemmen
+  BGM Separation: BGM Separatie
 zh:
   Language: 语言
   Upload File here: 上传文件
@@ -584,3 +635,96 @@ eu:
   Instrumental: Instrumentala
   Vocals: Ahotsak
   BGM Separation: BGM Bereizpena
+he: # Hebrew
+  Language: שפה
+  File: קובץ
+  Youtube: יוטיוב
+  Mic: מיקרופון
+  T2T Translation: תרגום T2T
+  BGM Separation: הפרדת מוזיקת רקע
+  GENERATE SUBTITLE FILE: צור קובץ כתוביות
+  Output: פלט
+  Downloadable output file: קובץ פלט להורדה
+  Upload File here: העלה קובץ כאן
+  Model: מודל
+  Automatic Detection: זיהוי אוטומטי
+  File Format: פורמט קובץ
+  Translate to English?: לתרגם לאנגלית?
+  Add a timestamp to the end of the filename: הוסף חותמת זמן לסוף שם הקובץ
+  Advanced Parameters: פרמטרים מתקדמים
+  Background Music Remover Filter: מסנן הסרת מוזיקת רקע
+  Enabling this will remove background music: הפעלה תסיר מוזיקת רקע באמצעות מודל משנה לפני תמלול
+  Enable Background Music Remover Filter: אפשר מסנן הסרת מוזיקת רקע
+  Save separated files to output: שמור קבצים מופרדים לפלט
+  Offload sub model when finished: נתק מודל משנה לאחר סיום
+  Voice Detection Filter: מסנן זיהוי קול
+  Enable this to transcribe only detected voice: אפשר זאת כדי לתמלל רק קטעי קול שזוהו על ידי מודל המשנה
+  Enable Silero VAD Filter: אפשר מסנן Silero VAD
+  Diarization: דיאריזציה (זיהוי דוברים)
+  Enable Diarization: אפשר דיאריזציה
+  HuggingFace Token: אסימון HuggingFace
+  This is only needed the first time you download the model: זה נדרש רק בפעם הראשונה שאתה מוריד את המודל. אם כבר יש לך את המודלים, אין צורך להזין זאת
+  Device: התקן
+  Youtube Link: קישור יוטיוב
+  Youtube Thumbnail: תמונת תצוגה מקדימה של יוטיוב
+  Youtube Title: כותרת יוטיוב
+  Youtube Description: תיאור יוטיוב
+  Record with Mic: הקלט עם מיקרופון
+  Upload Subtitle Files to translate here: העלה כאן קבצי כתוביות לתרגום
+  Your Auth Key (API KEY): מפתח אימות שלך (API KEY)
+  Source Language: שפת מקור
+  Target Language: שפת יעד
+  Pro User?: משתמש פרו?
+  TRANSLATE SUBTITLE FILE: תרגם קובץ כתוביות
+  Upload Audio Files to separate background music: העלה קבצי שמע להפרדת מוזיקת רקע
+  Instrumental: אינסטרומנטלי
+  Vocals: שירה
+  SEPARATE BACKGROUND MUSIC: הפרד מוזיקת רקע
+zh-TW:
+  Language: 語言
+  Upload File here: 在此處上傳檔案
+  Model: 模型
+  Automatic Detection: 自動偵測
+  File Format: 檔案格式
+  Translate to English? (Whisper's End-To-End Speech-To-Text translation feature): 翻譯成英文？(Whisper 的端到端語音轉文字翻譯功能)
+  Add a timestamp to the end of the filename: 在檔名結尾加入時間戳記
+  Offload sub model when finished: 完成後卸載模型
+  Advanced Parameters: 進階參數
+  Enabling this will remove background music: 啟用此功能將在轉錄前，透過子模型移除背景音樂
+  Enable Background Music Remover Filter: 啟用背景音樂移除濾波器
+  Device: 裝置
+  Save separated files to output: 將分離的檔案儲存至輸出資料夾
+  Background Music Remover Filter: 背景音樂移除濾波器
+  Enable this to transcribe only detected voice: 啟用此功能，只轉錄子模型偵測到的語音部分
+  Enable Silero VAD Filter: 啟用 Silero VAD 濾波器
+  Voice Detection Filter: 語音偵測濾波器
+  Enable Diarization: 啟用語者分離（Diarization）
+  This is only needed the first time you download the model: 只有第一次下載模型時才需要此步驟。
+     如果您已經有模型，則無需輸入。若要下載模型，您必須手動前往 "https://huggingface.co/pyannote/speaker-diarization-3.1" 和 "https://huggingface.co/pyannote/segmentation-3.0" 並同意其要求
+  HuggingFace Token: HuggingFace 權杖（Token）
+  Diarization: 語者分離
+  GENERATE SUBTITLE FILE: 產生字幕檔案
+  Output: 輸出
+  Downloadable output file: 可下載的輸出檔案
+  File: 檔案
+  Youtube Link: YouTube 連結
+  Youtube Thumbnail: YouTube 縮圖
+  Youtube Title: YouTube 標題
+  Youtube Description: YouTube 說明
+  Youtube: YouTube
+  Record with Mic: 使用麥克風錄音
+  Mic: 麥克風
+  Upload Subtitle Files to translate here: 在此處上傳要翻譯的字幕檔案
+  Your Auth Key (API KEY): 您的驗證金鑰 (API KEY)
+  Source Language: 來源語言
+  Target Language: 目標語言
+  Pro User?: 專業使用者？
+  TRANSLATE SUBTITLE FILE: 翻譯字幕檔案
+  DeepL API: DeepL API
+  NLLB: NLLB
+  T2T Translation: T2T 翻譯
+  Upload Audio Files to separate background music: 在此處上傳要分離背景音樂的音訊檔案
+  SEPARATE BACKGROUND MUSIC: 分離背景音樂
+  Instrumental: 樂器
+  Vocals: 人聲
+  BGM Separation: 背景音樂分離
